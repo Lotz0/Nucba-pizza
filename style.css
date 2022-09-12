@@ -10,6 +10,81 @@
     font-family: Montserrat;
     margin: 0;
 }
+
+
+
+
+.header {
+    width: 95%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 85px;
+    padding: 20px 2%;
+    margin: 10px;
+    border-radius: 1em;
+}
+
+.header .logo {
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.header .logo img {
+    height: 70px;
+    width: auto;
+    transition: all 0.4s;
+    border-radius: 1em;
+}
+
+.header .logo img:hover {
+    transform: scale(1.2);
+}
+
+.header .nav-links li {
+    display: inline-block;
+    padding: 20px;
+}
+
+.header .nav-links li:hover {
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
+
+#amongus {
+    width: 30px;
+}
+
+.header .casa {
+    padding: 0px 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .text_1{
     width: 603px;
     height: 93px;
