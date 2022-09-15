@@ -358,3 +358,46 @@ body{
 .p_card_6 { grid-area: p_card_6; }
 .p_card_7 { grid-area: p_card_7; }
 .p_card_8 { grid-area: p_card_8; }
+
+
+.footer {
+    background-color: #000000;
+     color: #FFFFFF;
+     font-family: 'Montserrat', sans-serif;
+     display: flex;
+     flex-direction: column;
+     gap: 60px;
+     padding: 60px;
+ }
+ 
+ .links_f {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+   gap: 30px;
+   list-style: none;
+  }
+ 
+  .links_f a {
+    color: #FFFFFF;
+    font-weight: 100px;
+    font-size: 17px;
+    text-decoration: none;
+ 
+  }
+ 
+  .nucba {
+    text-align: center;
+    font-weight: 100px;
+    font-size: 18px;
+  }
+  .footer span {
+     font-weight: 800;
+     font-size: 17px;
+     
+     
+  }
+
+
+
